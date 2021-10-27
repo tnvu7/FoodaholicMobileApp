@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="A2_RecipeApp.Views.SavedPage"
+    Shell.NavBarIsVisible="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="0">
+                <Image Source="PfpRecipe.png" Margin="0,20,0,0"/>
+                <Label
+                    Text="All Likes"
+                    TextColor="#0F2139" 
+                    FontSize="Large" 
+                    FontAttributes="Bold"
+                    Margin="153,20,0,10" />
+                <BoxView BackgroundColor="DeepPink" HeightRequest="3"/>
+
+                <CollectionView x:Name="searchResults"
+                                SelectionMode="Single"
+                                SelectionChanged="RecipeDetail_Selected">
+
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="2">
+                        </GridItemsLayout>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="10">
+                                <Frame Padding="0"
+                                         Margin="0,0,5,0"  
+                                         HasShadow="False"
+                                       BorderColor="#F5F5F5"
+                                         CornerRadius="10"
+                                         BackgroundColor="DeepPink"
+                                         IsClippedToBounds="True">
+                                       <StackLayout>
+                                         <Image Aspect="AspectFill" Margin="0,0,0,5" HeightRequest="150" Source="{Binding imageURL}"/>
+                                         <Label Margin="10,5,10,10" HorizontalOptions="Center"
+                                                Text="{Binding title}" LineBreakMode="WordWrap"
+                                                TextColor="White" FontAttributes="Bold"/>
+                                       </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                    
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

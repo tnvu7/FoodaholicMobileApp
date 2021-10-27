@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="A2_RecipeApp.Views.SearchPage" >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="0">
+                <CollectionView x:Name="searchResults"
+                                SelectionMode="Single"
+                                SelectionChanged="RecipeDetail_Selected">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="2">
+                        </GridItemsLayout>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="10">
+                                <Frame Padding="0"
+                                         Margin="0,0,5,0"  
+                                         HasShadow="False"
+                                       BorderColor="#F5F5F5"
+                                         CornerRadius="10"
+                                         BackgroundColor="#F5F5F5"
+                                         IsClippedToBounds="True">
+                                       <StackLayout>
+                                         <Image Aspect="AspectFill" Margin="0,0,0,5" HeightRequest="150" Source="{Binding imageURL}"/>
+                                         <Label Margin="10,5,10,10" HorizontalOptions="Center"
+                                                Text="{Binding title}" LineBreakMode="WordWrap"
+                                                TextColor="Black" FontAttributes="Bold"/>
+                                       </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+
+                    <CollectionView.EmptyView>
+                        <ContentView>
+                            <StackLayout HorizontalOptions="CenterAndExpand"
+                                         VerticalOptions="CenterAndExpand">
+                                <Label Text="No recipes found"
+                                       Margin="10,-50,10,10"
+                                       FontAttributes="Bold"
+                                       FontSize="20"
+                                       HorizontalOptions="Fill"
+                                       HorizontalTextAlignment="Center"/>
+                                <Label Text="Please try a different search"
+                                       FontAttributes="Italic"
+                                       FontSize="14"
+                                       HorizontalOptions="Fill"
+                                       HorizontalTextAlignment="Center" />
+                            </StackLayout>
+                        </ContentView>
+                    </CollectionView.EmptyView>
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

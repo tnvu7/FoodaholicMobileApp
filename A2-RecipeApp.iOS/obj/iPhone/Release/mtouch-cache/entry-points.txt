@@ -1,0 +1,83 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{8DDC24C7-E9FA-4C6E-9621-CB124D38606D}|Default">
+  <MonoDevelop.Ide.ItemProperties.A2-RecipeApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="A2-RecipeApp" expanded="True" selected="True">
+            <Node name="A2-RecipeApp.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.A2-RecipeApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.40B55A70-EF0D-464C-92F8-123A463AB4D4" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/natalievu/Documents/DPS926/A2-RecipeApp/A2-RecipeApp/Views/AboutPage.xaml.cs" relfile="A2-RecipeApp/Views/AboutPage.xaml.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

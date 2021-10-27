@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="A2_RecipeApp.Views.RecipePage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="SaveIcon" IconImageSource="Heart.png" Clicked="SaveIcon_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+
+    <ScrollView Orientation="Vertical">
+        <StackLayout Padding="0">
+            <Label Margin="20,20,20,10" Text="{Binding title}" FontAttributes="Bold" FontSize="25"></Label>
+            <Frame Padding="0"
+              Margin="0,0,0,0"  
+              HasShadow="False"
+              CornerRadius="20"
+              BackgroundColor="blue"
+              WidthRequest="400" HeightRequest="300">
+                <Image Aspect="AspectFill" WidthRequest="400" HeightRequest="300" x:Name="image"></Image>
+            </Frame>
+            
+            
+            <Label Margin="20,20,20,5" Text="{Binding servings, StringFormat='Servings: {0}'}"/>
+            <Label Margin="20,0,20,10" Text="{Binding readyInMinutes, StringFormat='Preparation time: {0} min'}"/>
+
+            <Label Margin="20,0,20,10" Text="Ingredients" FontAttributes="Bold" TextDecorations="Underline" FontSize="20"></Label>
+            <ListView Margin="20,0,20,10" x:Name="ingList" HeightRequest="50">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="10" >
+                                <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                                    <Label Text="{Binding name}"></Label>
+                                </StackLayout>
+                                    <Label Text="{Binding amount}"/>
+                                    <Label Text="{Binding unit}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <Label Margin="20,0,20,10" FontAttributes="Bold" TextDecorations="Underline" FontSize="20" Text="Instructions"></Label>
+            <Label Margin="20,0,20,10" x:Name="insLabel" FontFamily="Lato" FontSize="15" TextType="Html"/>
+
+            <Label Margin="20,0,20,10" Text="Enjoy!" FontFamily="Lato" FontAttributes="Italic" FontSize="18"/>
+        </StackLayout>
+
+    </ScrollView>    
+</ContentPage>

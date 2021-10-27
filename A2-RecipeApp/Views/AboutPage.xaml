@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="A2_RecipeApp.Views.AboutPage"
+             Title="Discover"
+             Shell.NavBarIsVisible="False">
+    <ScrollView>
+   <StackLayout Padding="20">
+  
+        <!-- Search -->
+        <SearchBar SearchButtonPressed="SearchBar_SearchButtonPressed"
+                       TextChanged="SearchBar_TextChanged"
+                       Placeholder="What are you craving?"
+                       WidthRequest="350"
+                       Margin="0,0,0,0"/>
+       <!-- Block 1 -->
+       <Label
+            Text="Recommended for You"
+            TextColor="#0F2139" 
+            FontSize="Large" 
+            FontAttributes="Bold"
+            Margin="0,15,0,10" />
+       <Frame Padding="0"
+              Margin="0,0,0,0"  
+              HasShadow="False"
+              CornerRadius="10"
+              IsClippedToBounds="True"
+              BackgroundColor="#01D9EC"
+              WidthRequest="200">
+           <Frame.GestureRecognizers>
+               <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+           </Frame.GestureRecognizers>
+             <StackLayout>
+                <Image Aspect="AspectFill" Margin="0,0,0,15" HeightRequest="220" x:Name="imgRec4you"/>
+                 <Label Margin="10,0,0,0" HorizontalOptions="Center"
+                                                x:Name="labelRec4you" LineBreakMode="WordWrap"
+                                                TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                
+             </StackLayout>
+        </Frame>
+        <!-- Block 2 -->
+        <Label
+            Text="Trending"
+            TextColor="#0F2139" 
+            FontSize="Large" 
+            FontAttributes="Bold"
+            Margin="0,15,0,10" />
+        <CollectionView x:Name="recFrame"
+                        ItemsLayout="HorizontalList"
+                        HeightRequest="300"
+                        Margin="0,0,0,00"
+                        SelectionMode="Single"
+                        SelectionChanged="Recipe_Selected"
+                        BackgroundColor="Transparent">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                    <Frame Padding="0"
+                         Margin="0,0,30,00"  
+                         HasShadow="False"
+                         CornerRadius="10"
+                         IsClippedToBounds="True"
+                         BackgroundColor="Black"
+                         WidthRequest="150" >
+                       <StackLayout>
+                         <Image Aspect="AspectFill" Margin="0,0,0,10" HeightRequest="150" Source="{Binding imageURL}"/>
+                         <Label Margin="10,5,10,10" HorizontalOptions="Center"
+                                                Text="{Binding title}" LineBreakMode="WordWrap"
+                                                TextColor="White" FontAttributes="Bold"/>
+                           </StackLayout>
+                    </Frame>
+                    </StackLayout>   
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ScrollView>       
+</ContentPage>
